@@ -6,19 +6,3 @@ trivia_api:
   base_url: "http://localhost:3000/api/v1"
   # 请求超时时间(秒)
   timeout: 30
-
-# 其他可能的配置项
-# 分类配置
-categories:
-  - "科学"
-  - "历史"
-  - "地理"
-  - "文化"
-  - "技术"
-  - "自然"
-  - "未分类"
-
-# 默认设置
-defaults:
-  category: "未分类"
-  status: "pending"  # pending, approved, rejected
